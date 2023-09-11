@@ -11,7 +11,7 @@
 */
 
 /*
-© [2022] Microchip Technology Inc. and its subsidiaries.
+© [2023] Microchip Technology Inc. and its subsidiaries.
 
     Subject to your compliance with these terms, you may use Microchip 
     software and any derivatives exclusively with Microchip products. 
@@ -127,7 +127,7 @@ int main(void)
 
             case CONFIG_NON_INVERTING: 
 
-                printf("Lab 2: Non-inverting amplifier \r\n");
+                printf("Lab 2: Noninverting amplifier \r\n");
 
                 //Set OPA configurations to Non-inverting mode
                 ConfigureOPA_NonInverting(GAIN_2_NON_INVERTING); 
