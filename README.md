@@ -244,7 +244,7 @@ Additional Links: [MCC Melody Technical Reference](https://onlinedocs.microchip.
 |    Pin Settings                    |    *Pin Grid View*<br>OPA1<br>OPA1INx+: RA2<br> OPA1OUT: RC2<br><br> EUSART1<br> RX1: RB5 <br>TX1: RB7 <br> <br>TMR2<br> T2IN: RC0<br><br> GPIO <br> Input: RC0 <br> <br>*Pins*<br>  RC0 <br> Custom Name: SW_S1 <br> Weak Pull-up: Enable  |    Pin Configurations                         |
 
 **Notes:**
-1. The on-board debugger on the Curiosity Nano board has a virtual serial port (CDC) connected to the Enhanced Universal Synchronous Asynchronous Receiver Transmitter (EUSART) on the PIC16F17146 and provides an easy way to communicate with the target application through terminal software. Refer to the [Curiosity Nano board user guide](www.microchip.com/DS50003388) for more details.
+1. The on-board debugger on the Curiosity Nano board has a virtual serial port (CDC) connected to the Enhanced Universal Synchronous Asynchronous Receiver Transmitter (EUSART) on the PIC16F17146 and provides an easy way to communicate with the target application through terminal software. Refer to the [Curiosity Nano board user guide](https://www.microchip.com/DS50003388) for more details.
 
 2. All OPA configuration used in this example are generated separately using MCC (MCC can generate only a single configuration at a time). All <code>OPA1_Initialize()</code> functions generated separately are then added in <code>opa_setup.c</code> file.
 
